@@ -41,3 +41,7 @@ The script:
 3. Embeds the JPEG image in the PDF
 4. Sets the PDF page size to match the image dimensions
 5. Saves the PDF with the same name as the input file (with `.pdf` extension)
+
+---
+
+This project was created using `bun init` in bun v1.3.5. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.

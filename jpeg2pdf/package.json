@@ -4,10 +4,20 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "bun run main.js"
+    "start": "bun run index.ts"
   },
   "dependencies": {
+    "@clack/prompts": "^0.8.2",
+    "cheloni": "^0.1.0",
+    "dedent": "^1.7.1",
     "pdf-lib": "^1.17.1",
-    "@clack/prompts": "^0.8.2"
+    "sanitize-filename": "^1.6.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
   }
 }

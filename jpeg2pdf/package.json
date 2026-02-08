@@ -1,0 +1,13 @@
+{
+  "name": "jpeg2pdf",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run main.js"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "@clack/prompts": "^0.8.2"
+  }
+}
